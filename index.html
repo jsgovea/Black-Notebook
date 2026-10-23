@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cuaderno Negro · Black Notebook</title>
+<meta name="description" content="Novela policiaca interactiva para iPhone: Puerto Almagre, 1989. / An interactive noir detective novel for iPhone.">
+<style>
+  :root { --paper: #DDD3BC; --ink: #2A2420; --faded: #5A5040; --stamp: #9A2B23; --card: #E8E0CC; }
+  @media (prefers-color-scheme: dark) {
+    :root { --paper: #211E1A; --ink: #E3D9C6; --faded: #A39888; --stamp: #D9564A; --card: #2B2722; }
+  }
+  body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.6 "American Typewriter", "Courier New", monospace; }
+  main { max-width: 680px; margin: 0 auto; padding: 24px 20px 64px; }
+  nav { display: flex; flex-wrap: wrap; gap: 6px 18px; font-size: 14px; padding-bottom: 12px; border-bottom: 1px solid var(--faded); margin-bottom: 28px; }
+  nav a { color: var(--faded); text-decoration: none; }
+  nav a[aria-current="page"] { color: var(--ink); text-decoration: underline; }
+  hr { border: 0; border-top: 2px solid var(--stamp); margin: 44px 0; }
+  a { color: var(--stamp); }
+  li { margin-bottom: 8px; }
+  .marca { font-size: 40px; line-height: 1.05; letter-spacing: 2px; margin: 8px 0 6px; }
+  .raya { max-width: 340px; height: 3px; background: var(--stamp); margin: 10px 0 14px; }
+  .lugar { color: var(--faded); font-size: 14px; }
+  .aviso { background: var(--card); border-left: 3px solid var(--stamp); padding: 10px 14px; margin: 18px 0; }
+  footer { color: var(--faded); font-size: 13px; margin-top: 48px; }
+</style>
+</head>
+<body>
+<main>
+  <nav>
+    <a href="index.html" aria-current="page">Inicio · Home</a>
+    <a href="soporte.html">Soporte · Support</a>
+    <a href="privacidad.html">Privacidad · Privacy</a>
+  </nav>
+
+  <section lang="es">
+    <p class="marca">CUADERNO NEGRO</p>
+    <div class="raya"></div>
+    <p class="lugar">Puerto Almagre · 1989 · Temporada 1</p>
+    <p>Eres el nuevo de la comandancia, y te dieron el cuaderno de un inspector que murió de un «infarto» que nadie revisó. En la última página hay una línea tachada hasta romper el papel. ¿Quién es R.?</p>
+    <p>Cuaderno Negro es una novela de detectives que se juega leyendo. Recorre el puerto, interroga, pon una prueba frente a quien te mintió y decide a quién acusar. Cada caso tiene varios finales, y algunos se cierran como le conviene a alguien.</p>
+    <ul>
+      <li>Cinco expedientes y un final verdadero, el expediente R.</li>
+      <li>Los expedientes 001 y 002 se juegan completos; una sola compra abre el resto de la temporada. Sin suscripciones.</li>
+      <li>En español y en inglés. Sin anuncios, sin cuentas, sin rastreo.</li>
+    </ul>
+    <p class="aviso">Para iPhone. Próximamente en la App Store.</p>
+  </section>
+
+  <hr>
+
+  <section lang="en">
+    <p class="marca">BLACK NOTEBOOK</p>
+    <div class="raya"></div>
+    <p class="lugar">Puerto Almagre · 1989 · Season 1</p>
+    <p>You're the new guy at the station, and they've handed you the notebook of an inspector who died of a "heart attack" nobody looked into. On the last page, one line is crossed out so hard the paper tore. Who is R.?</p>
+    <p>Black Notebook is a detective novel you play by reading. Work the port, question people, put the evidence in front of whoever lied to you, and decide who to charge. Every case has several endings, and some close the way somebody needs them to.</p>
+    <ul>
+      <li>Five case files and a true ending, Case R.</li>
+      <li>Play Cases 001 and 002 start to finish; one purchase unlocks the rest of the season. No subscriptions.</li>
+      <li>In English and Spanish. No ads, no accounts, no tracking.</li>
+    </ul>
+    <p class="aviso">For iPhone. Coming soon to the App Store.</p>
+  </section>
+
+  <footer>© 2026 Jorge Soto</footer>
+</main>
+</body>
+</html>
